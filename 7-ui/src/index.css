@@ -1,0 +1,10 @@
+
+*{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+@import "tailwindcss";
+
+#right::-webkit-scrollbar{
+  display:none;
+}
