@@ -20,7 +20,7 @@ const App = () => {
             onChange={(e)=>{
               setTitle(e.target.value)
             }}
-        />
+        /> 
         <button>Submit</button>
       </form>
     </div>

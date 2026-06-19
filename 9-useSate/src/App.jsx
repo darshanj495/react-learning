@@ -2,16 +2,15 @@ import React, { useState } from 'react'
 
 const App = () => {
 
-  const submitHandler = (e)=>{
+  function submitHandler(e){
     e.preventDefault()
-    console.log('Form submitted');
+    console.log('Form Submitted')
   }
+  
   return (
     <div>
-      <form onSubmit={(e)=>{
-        submitHandler(e);
-      }}>
-        <input type = 'text' placeholder='Name'/>
+      <form onSubmit={submitHandler}>
+        <input type="text" placeholder="Enter Name"/>
         <button>Submit</button>
       </form>
     </div>
